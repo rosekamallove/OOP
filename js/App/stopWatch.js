@@ -15,12 +15,6 @@ function StopWatch() {
     if (running) throw new Error("Already Running");
     running = 1;
     startTime = new Date();
-    //if (running) {
-    //  const incrementTime = () => {
-    //    duration += 1;
-    //  };
-    //  let interval = setInterval(incrementTime, 1000);
-    //}
   };
 
   this.stop = () => {
